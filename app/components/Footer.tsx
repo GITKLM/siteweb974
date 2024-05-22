@@ -44,9 +44,11 @@ export default function Footer() {
               </Link>
             </li>
           ))}
+          <li>
           <ButtonLink>
             Devis gratuit
           </ButtonLink>
+          </li>
         </ul>
       </nav>
     </footer>
