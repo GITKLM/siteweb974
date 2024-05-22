@@ -64,9 +64,9 @@ export default function NavBar() {
             <MdClose />
             <span className="sr-only">Close menu</span>
           </button>
-          <div className="grid justify-items-end gap-8">
+          <ul className="grid justify-items-end gap-8">
             {navigationItems.map((item) => (
-              <div key={item.label}>
+              <li key={item.label}>
                 <Link href={item.link}
                       aria-label={`Naviger sur la page ${item.label}`}
                   className="block px-3 text-3xl first:mt-8"
@@ -74,15 +74,15 @@ export default function NavBar() {
                 >
                   {item.label}
                 </Link>
-              </div>
+              </li>
             ))}
-            <div className="pt-8 px-1 text-2xl first:mt-8" onClick={() => setOpen(false)}>
+            <li className="pt-8 px-1 text-2xl first:mt-8" onClick={() => setOpen(false)}>
               <ButtonLink
               >
                 Devis gratuit
               </ButtonLink>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
 
         {/* Desktop Nav */}
@@ -97,11 +97,11 @@ export default function NavBar() {
               </Link>
             </li>
           ))}
-            <ButtonLink
-            
-            >
+          <li>
+            <ButtonLink>
               Devis gratuit
             </ButtonLink>
+          </li>
         </ul>
       </div>
     </nav>
