@@ -34,6 +34,7 @@ const Card: React.FC<CardProps> = ({title, description, src, color, i}) => {
             <p className='pb-2'>{description}</p>
           <Link
           className='text-sm'
+          aria-label="Voir le site"
           href="/"
           >
           Voir le site

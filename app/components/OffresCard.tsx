@@ -22,7 +22,10 @@ const OffresCard: React.FC<OffresCardProps> = ({ color, title, description, imag
 
       <Image className="mx-auto block rounded-xl" src={imageSrc} alt={imgAlt} height={300} width={300} />
       {linkHref && (
-        <Link href={linkHref} className="after:absolute after:inset-0 hover:underline ">
+        <Link 
+        href={linkHref}
+        aria-label={`Naviger sur la page Nos offres`}
+        className="after:absolute after:inset-0 hover:underline ">
           Voir l&apos;offre
         </Link>
       )}

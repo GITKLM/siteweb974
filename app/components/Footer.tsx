@@ -9,16 +9,25 @@ export default function Footer() {
       ];
   return (
     <footer className="flex flex-col items-center justify-between gap-6 border-t border-slate-600 px-8 py-7 md:flex-row">
-      <Link href="/">
+      <Link 
+      href="/"
+      aria-label=" Aller à la page d'accueil"
+      >
         <Logo />
         <span className="sr-only">Glisten.ai Home Page</span>
       </Link>
       <div className='text-center'>
         <div className='flex gap-8 pb-2'>
-          <Link href="/mentionsLegales">
+          <Link 
+          href="/mentionsLegales"
+          aria-label="Voir les Mentions Légales"
+          >
               <span className="">Mentions Légales</span>
           </Link>
-          <Link href="/politique">
+          <Link 
+          href="/politique"
+          aria-label="Voir la Politique de Confidentialité"
+          >
               <span className="">Politique de Confidentialité</span>
           </Link>
         </div>
@@ -30,7 +39,7 @@ export default function Footer() {
         <ul className="flex gap-6">
           {navigationItems.map((item) => (
             <li key={item.label}>
-              <Link href={item.link} className="inline-flex min-h-11 items-center">
+              <Link href={item.link} aria-label="Voir toutes Nos Offres" className="inline-flex min-h-11 items-center">
                 {item.label}
               </Link>
             </li>

@@ -28,7 +28,10 @@ function SectionWithImageAndText({ title, gradientText, imageSrc, altText, text,
               <p key={index}>{paragraph}</p>
             ))}
           </div>
-          <Link href={linkHref} className="after:absolute after:inset-0 hover:underline flex gap-4 items-center">
+          <Link 
+          href={linkHref} 
+          aria-label="Aller à la page Nos Offres"
+          className="after:absolute after:inset-0 hover:underline flex gap-4 items-center">
             En savoir plus
             <RiArrowRightSLine size={22} />
           </Link>

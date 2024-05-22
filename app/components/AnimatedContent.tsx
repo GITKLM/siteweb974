@@ -58,6 +58,7 @@ export default function AnimatedContent() {
         <Carousel />
         <Link
       href={"/realisations"}
+      aria-label="Voir toutes nos réalisations"
       >
       </Link>
     </div>
