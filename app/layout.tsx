@@ -11,22 +11,22 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://siteweb974.vercel.app"),
+  keywords: ["Création de sites internet à La Réunion 974", "Développeur web à La Réunion 974", "Site vitrine à La Réunion 974", "Site e-commerce à La Réunion 974", "Design web à La Réunion 974", "Agence web à La Réunion 974", "Création de boutiques en ligne à La Réunion 974", "Créateur site web à la réunion 974", "Stratégies de référencement local à La Réunion", "création web péi", "Optimisation référencement SEO à La Réunion 974", "Refonte de sites web à La Réunion 974"],
   title: {
     default: "Site Web 974 - Création de site internet à la Réunion",
     template: '%s | Site Web 974 - Création de site internet à la Réunion'
   },
   description: "Site Web 974 propose la création de site internet professionnel à l'île de la Réunion",
   openGraph:{
+    description: "Site Web 974 propose la création de site internet professionnel à l'île de la Réunion",
     title: "Site Web 974 | Création de site internet à la Réunion",
     type: 'website',
-    description: "Site Web 974 propose la création de site internet professionnel à l'île de la Réunion",
     locale: "fr",
     url: "https://siteweb974.vercel.app/",
     siteName:"SiteWeb974",
-    // Ajoutez l'image Open Graph ici :
-    images: '/opengraph-image.jpg',
+    images: ['/opengraph-image.jpg'],
   },
-  // Ajoutez d'autres métadonnées ici si nécessaire
 };
 
 
