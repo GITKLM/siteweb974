@@ -20,7 +20,7 @@ const OffresCard: React.FC<OffresCardProps> = ({ color, title, description, imag
       <p className='text-center pb-4 italic'>{subtitle}</p>
       <p className=''>{description}</p>
 
-      <Image className="mx-auto block" src={imageSrc} alt={imgAlt} height={300} width={300} />
+      <Image className="mx-auto block rounded-xl" src={imageSrc} alt={imgAlt} height={300} width={300} />
       {linkHref && (
         <Link href={linkHref} className="after:absolute after:inset-0 hover:underline ">
           Voir l&apos;offre
