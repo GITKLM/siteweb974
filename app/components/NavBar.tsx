@@ -86,7 +86,8 @@ export default function NavBar() {
         </div>
 
         {/* Desktop Nav */}
-        <ul className="hidden md:flex md:gap-6 items-center">
+        <div className="hidden md:flex md:gap-6 items-center">
+        <ul className="md:flex md:gap-6 items-center">
           {navigationItems.map((item) => (
             <li key={item.label}>
               <Link 
@@ -97,12 +98,14 @@ export default function NavBar() {
               </Link>
             </li>
           ))}
-          <li>
+           </ul>
+          <div>
             <ButtonLink>
               Devis gratuit
             </ButtonLink>
-          </li>
-        </ul>
+          </div>
+       
+        </div>
       </div>
     </nav>
   );
