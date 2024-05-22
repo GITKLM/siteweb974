@@ -76,18 +76,17 @@ export default function NavBar() {
                 </Link>
               </li>
             ))}
-              </ul>
-            <div className="pt-8 px-1 text-2xl first:mt-8" onClick={() => setOpen(false)}>
+            <li className="pt-8 px-1 text-2xl first:mt-8" onClick={() => setOpen(false)}>
               <ButtonLink
               >
                 Devis gratuit
               </ButtonLink>
-            </div>
+            </li>
+                </ul>
         </div>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex md:gap-6 items-center">
-        <ul className="md:flex md:gap-6 items-center">
+        <ul className="hidden md:flex md:gap-6 items-center">
           {navigationItems.map((item) => (
             <li key={item.label}>
               <Link 
@@ -98,15 +97,14 @@ export default function NavBar() {
               </Link>
             </li>
           ))}
-           </ul>
-          <div>
+          <li>
             <ButtonLink>
               Devis gratuit
             </ButtonLink>
-          </div>
+          </li>
+           </ul>
        
         </div>
-      </div>
     </nav>
   );
 }
