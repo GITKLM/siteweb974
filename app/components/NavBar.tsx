@@ -76,13 +76,13 @@ export default function NavBar() {
                 </Link>
               </li>
             ))}
-            <li className="pt-8 px-1 text-2xl first:mt-8" onClick={() => setOpen(false)}>
+              </ul>
+            <div className="pt-8 px-1 text-2xl first:mt-8" onClick={() => setOpen(false)}>
               <ButtonLink
               >
                 Devis gratuit
               </ButtonLink>
-            </li>
-          </ul>
+            </div>
         </div>
 
         {/* Desktop Nav */}
