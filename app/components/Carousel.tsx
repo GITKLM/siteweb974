@@ -2,6 +2,29 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
+const useWindowSize = () => {
+  const [windowSize, setWindowSize] = useState({
+    width: 0,
+    height: 0,
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+
+    handleResize(); // Mise à jour de la taille de la fenêtre lors du chargement de la page
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []); // Déclenche uniquement après le rendu initial
+
+  return windowSize;
+};
+
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const totalSlides = 5;
@@ -20,28 +43,6 @@ const Carousel = () => {
 
   const goToPrevSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides);
-  };
-
-  // Hook pour obtenir la taille de la fenêtre
-  const useWindowSize = () => {
-    const [windowSize, setWindowSize] = useState({
-      width: typeof window !== 'undefined' ? window.innerWidth : 0,
-      height: typeof window !== 'undefined' ? window.innerHeight : 0,
-    });
-
-    useEffect(() => {
-      function handleResize() {
-        setWindowSize({
-          width: window.innerWidth,
-          height: window.innerHeight,
-        });
-      }
-
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
-    return windowSize;
   };
 
   const windowSize = useWindowSize();
