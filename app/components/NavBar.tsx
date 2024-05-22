@@ -97,10 +97,11 @@ export default function NavBar() {
               </Link>
             </li>
           ))}
-            <ButtonLink>
+            <ButtonLink
+            
+            >
               Devis gratuit
             </ButtonLink>
-          
         </ul>
       </div>
     </nav>

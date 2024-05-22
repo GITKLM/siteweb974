@@ -47,8 +47,11 @@ export default function AnimatedContent() {
     </h1>
     <p className="hero__body opacity-0 italic text-xs sm:text-lg">Site vitrine, e-commerce ou sur-mesure <span className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent font-bold">gratuit</span> avec l&apos;aide régionale</p>
     <div className=" hero__button opacity-0 flex sm:flex-row  flex-col gap-4 items-center justify-center py-6">
-    <ButtonRegion />
-    <ButtonLink>Nous contacter</ButtonLink>
+    <ButtonRegion
+    
+    />
+    <ButtonLink
+    >Nous contacter</ButtonLink>
     </div>
             </div>
             <div>

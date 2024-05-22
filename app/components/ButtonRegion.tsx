@@ -15,6 +15,7 @@ export default function ButtonRegion() {
 
   return (
     <button
+    aria-label="Aller vers le site de la Région Réunion"
       className={`relative ${
         isHovered ? 'bg-gradient-to-b from-yellow-300 to-yellow-500' : 'border border-blue-100/20 bg-blue-200/10'
       } text-yellow-300 px-4 py-2 rounded-full transition-all duration-400 hover:text-white/90 hover:font-semibold border border-blue-100/20 w-[13rem]`}
