@@ -77,7 +77,12 @@ export default function NavBar() {
               </li>
             ))}
               </ul>
-
+            <div className="pt-8 px-1 text-2xl first:mt-8" onClick={() => setOpen(false)}>
+              <ButtonLink
+              >
+                Devis gratuit
+              </ButtonLink>
+            </div>
         </div>
 
         {/* Desktop Nav */}
@@ -94,7 +99,11 @@ export default function NavBar() {
             </li>
           ))}
            </ul>
-
+          <div>
+            <ButtonLink>
+              Devis gratuit
+            </ButtonLink>
+          </div>
        
         </div>
       </div>
