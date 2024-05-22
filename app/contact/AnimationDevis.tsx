@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import './module.page.css';
 import ContactForm from '../components/form';
 import { useRef } from 'react';
@@ -21,7 +21,7 @@ export default function AnimationDevis() {
     {
       title: "Nous contacter",
       items: [
-        { type: "email", value: "contact@siteweb974.com" },
+        { type: "email", value: "siteweb974@gmail.com" },
         { type: "phone", value: "0693518001" }
       ]
     },
@@ -74,19 +74,19 @@ export default function AnimationDevis() {
                 switch (item.type) {
                   case "email":
                     return (
-                      <a key={itemIndex} href={`mailto:${item.value}`} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 text-gray-300 block">{item.value}</a>
+                      <a key={itemIndex} href={`mailto:${item.value}`} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 text-gray-300 block transform transition-transform duration-300 ease-in-out hover:scale-105 pl-2">{item.value}</a>
                     );
                   case "phone":
                     return (
-                      <a key={itemIndex} href={`tel:${item.value}`} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 text-gray-300 block">{item.value}</a>
+                      <a key={itemIndex} href={`tel:${item.value}`} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 text-gray-300 block transform transition-transform duration-300 ease-in-out hover:scale-105 pl-2">{item.value}</a>
                     );
                   case "address":
                     return (
-                      <a key={itemIndex} href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.value)}`} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 text-gray-300 block">{item.value}</a>
+                      <a key={itemIndex} href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.value)}`} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 text-gray-300 block transform transition-transform duration-300 ease-in-out hover:scale-105 pl-2">{item.value}</a>
                     );
                   case "social":
                     return (
-                      <a key={itemIndex} href={item.url} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 text-gray-300 block">{item.name}</a>
+                      <a key={itemIndex} href={item.url} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 text-gray-300 block transform transition-transform duration-300 ease-in-out hover:scale-105 pl-2">{item.name}</a>
                     );
                   default:
                     return null;

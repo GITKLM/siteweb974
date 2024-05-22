@@ -8,11 +8,11 @@ const Carousel = () => {
   const totalSlides = 5;
 
   const slides = [
-    '/gericht.png',
-    '/car-hub.png',
-    '/bank-app.png',
-    '/hilink.png',
-    '/GPT3.png',
+    '/gericht.webp',
+    '/car-hub.webp',
+    '/bank-app.webp',
+    '/hilink.webp',
+    '/gpt-3.webp',
   ];
 
   const goToNextSlide = () => {

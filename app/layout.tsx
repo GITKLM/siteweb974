@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     locale: "fr",
     //stored in env: 
     url: "https://siteweb974.vercel.app/",
+    images: "opengraph-image.jpg",
     siteName:"SiteWeb974"
   }
 };
