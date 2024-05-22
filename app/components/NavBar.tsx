@@ -7,6 +7,7 @@ import ButtonLink from "./ButtonLink";
 import Logo from "./Logo";
 
 export default function NavBar() {
+  
   const navigationItems = [
     { label: 'Nos Offres', link: '/offres' },
     { label: 'Réalisations', link: '/realisations' },
