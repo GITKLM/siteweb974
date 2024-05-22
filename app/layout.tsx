@@ -19,9 +19,10 @@ export const metadata: Metadata = {
   openGraph:{
     title: "Site Web 974 | Création de site internet à la Réunion",
     description: "Site Web 974 propose la création de site internet professionnel à l'île de la Réunion",
+    type: "website",
     locale: "fr",
     //stored in env: 
-    url: "http://localhost:3000",
+    url: "https://siteweb974.vercel.app/",
     siteName:"SiteWeb974"
   }
 };
