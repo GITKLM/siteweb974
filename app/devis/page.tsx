@@ -10,20 +10,7 @@ export const metadata: Metadata = {
 
 
 export default function Page() {
-  const contactInfo = [
-    {
-      title: "Nous contacter",
-      items: ["mail", "tel"]
-    },
-    {
-      title: "Adresse",
-      items: ["36 rue de l'abattoir", "97400 Saint-Denis"]
-    },
-    {
-      title: "Réseaux",
-      items: ["Instagram", "Facebook", "Twitter"]
-    }
-  ];
+  
 
   return (
     <Bounded>

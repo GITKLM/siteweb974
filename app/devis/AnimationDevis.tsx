@@ -9,7 +9,7 @@ export default function AnimationDevis() {
     const contactInfo = [
         {
           title: "Nous contacter",
-          items: ["contact@siteweb974.com", "069518001"]
+          items: ["contact@siteweb974.com", "0693518001"]
         },
         {
           title: "Adresse",
