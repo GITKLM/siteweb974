@@ -34,7 +34,7 @@ const Carousel = () => {
         className='rounded-lg'
           src={slides[currentSlide]} 
           alt={`Projet n°${currentSlide + 1}`}
-          height={100} 
+          height={555} 
           width={1100} 
         />
       </div>
