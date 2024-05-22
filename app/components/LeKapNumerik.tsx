@@ -56,7 +56,7 @@ export default function LeKapNumerik() {
 
       <Image
   src="/le-kap-numerik.jpg"
-  alt="Description de votre image"
+  alt="Image de présentation du kap Numerik"
   className="opacity-90 shadow-2xl lg:col-span-2 lg:pt-0 lg:-order-1 lg:translate-x-[-15%] rounded-lg"
   width={690}
   height={500}

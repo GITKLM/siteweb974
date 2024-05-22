@@ -40,7 +40,7 @@ export default function AnimationApropos() {
 
         <Image 
         src="/apropos/apropos.jpg"
-        alt='apropos'
+        alt='Un développeur derière son ordinateur'
         width={500}
         height={1000}
         />
@@ -50,7 +50,7 @@ export default function AnimationApropos() {
 <div className='flex flex-col justify-center items-center lg:flex-row p-10'>
         <Image 
         src="/apropos/apropos.jpg"
-        alt='apropos'
+        alt='photographie de la Réunion'
         width={500}
         height={1000}
         />

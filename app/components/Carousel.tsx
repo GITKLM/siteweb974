@@ -33,7 +33,7 @@ const Carousel = () => {
         <Image
         className='rounded-lg'
           src={slides[currentSlide]} 
-          alt={`Slide ${currentSlide + 1}`}
+          alt={`Projet n°${currentSlide + 1}`}
           height={100} 
           width={1100} 
         />

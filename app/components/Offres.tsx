@@ -18,6 +18,7 @@ export default function Offres() {
             description="Conception personnalisée, stratégie référencement, optimisé pour tout support, jusqu'à 5 pages (Accueil, À propos, Services, Contact, Blog)" 
             imageSrc="/offres/site-vitrine.png"
             linkHref="/offres"
+            imgAlt="image d'un site web sur un écran d'ordinateur"
           />
           <OffresCard
             color="yellow"
@@ -26,6 +27,7 @@ export default function Offres() {
             description="Conception personnalisée, stratégie référencement, optimisé pour tout support, catalogue de produits, gestion commande et stock, compte client, paiement sécurisé"
             imageSrc="/offres/site-e-commerce.png"
             linkHref="/offres"
+            imgAlt="image d'un site e-commerce sur un écran d'ordinateur"
           />
           <OffresCard
             color="green"
@@ -34,6 +36,8 @@ export default function Offres() {
             description="Selon vos envies, réparation et maintenance, refaire une stratégie de référencement, analyse de performance, création de blog personnel, etc."
             imageSrc="/offres/sur-mesure.png"
             linkHref="/offres"
+            imgAlt="image d'un site web sur un écran d'ordinateur portable"
+
           />
         </div>
       </Bounded>
