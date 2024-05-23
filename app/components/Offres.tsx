@@ -9,7 +9,7 @@ export default function Offres() {
         <h2 className="max-w-2xl text-balance text-center text-5xl font-medium md:text-7xl">
           Nos offres
         </h2>
-        <div className="grid grid-cols-1 grid-rows-[auto_auto_auto] md:grid-cols-2 lg:grid-cols-3 gap-7 mt-16">
+        <div className="grid grid-cols-1 grid-rows-[auto_auto_auto] md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 p-2">
 
           <OffresCard
             color="blue"
