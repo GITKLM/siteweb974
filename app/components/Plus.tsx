@@ -16,7 +16,7 @@ export default function Plus() {
           />
     <OffresCard
             title="Adapté à tout support" 
-            description="Design optimisé pour s'adapter à tous les appareils: téléphone, tablette et ordinateur" 
+            description="Design optimisé pour s'adapter à tous les appareils: téléphone, tablette et ordinateur." 
             imageSrc="/plus/responsive.jpg"
             imgAlt="Photo d'un ordinateur avec une tablette et plusieurs téléphones portables"
 
@@ -31,7 +31,7 @@ export default function Plus() {
 
     <OffresCard
             title="Maquette de votre Site" 
-            description="Nous vous proposons d'heberger vos sites chez nous et de vous fournir le nom de domaine"
+            description="Nous vous proposons d'heberger vos sites chez nous et de vous fournir le nom de domaine."
             // PRIX A RAJOUTER
             imageSrc="/plus/strategieSEO2.jpg"
             imgAlt="Maquette d'un site web"
@@ -39,14 +39,14 @@ export default function Plus() {
           />
     <OffresCard
             title="Site sécurisé" 
-            description="Utilisation de HTTPS, mise à jour régulière des logiciels, sécurité des utilisateurs, on évite l'utilisation de CMS comme Wordpress" 
+            description="Utilisation de HTTPS, mise à jour régulière des logiciels, sécurité des utilisateurs, on évite l'utilisation de CMS comme Wordpress." 
             imageSrc="/plus/security.jpg"
-            imgAlt="image d'un écran d'ordinateur avec un cadenas posé sur le clavier"
+            imgAlt="image d'un écran d'ordinateur avec un cadenas posé sur le clavier."
 
           />
     <OffresCard
             title="Dossier Kap Numerik" 
-            description="Donnez-nous les informations et on s'occupe de transmettre votre dossier auprès des services régionaux" 
+            description="On vous renseigne sur la subvention qui correspond à votre structure. On vous indique les pièces à fournir et où les déposer." 
             imageSrc="/le-kap-numerik.jpg"
             imgAlt="image de promotions du Kap Numerik proposé par la Région Réunion"
 
@@ -56,14 +56,14 @@ export default function Plus() {
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-20 mt-16'>
     <OffresCard
             title="Réparer/améliorer un site" 
-            description="Définir ensemble une vraie stratégie SEO, pour un site avec un meilleur référencement naturel" 
+            description="Définir ensemble une vraie stratégie SEO, pour un site avec un meilleur référencement naturel." 
             imageSrc="/plus/gear.jpg"
             imgAlt="image de rouage"
 
           />
     <OffresCard
             title="hébergement site" 
-            description="Nous vous proposons d'heberger vos sites chez nous et de vous fournir le nom de domaine"
+            description="Nous vous proposons d'heberger vos sites chez nous et de vous fournir le nom de domaine."
             // PRIX A RAJOUTER
             imageSrc="/plus/webhost.jpg"
             imgAlt="image de plusieurs serveurs reliés au cloud"
@@ -71,7 +71,7 @@ export default function Plus() {
           />
     <OffresCard
             title="Création de logo" 
-            description="Donnez-nous les informations et on s'occupe de transmettre votre dossier auprès des services régionaux" 
+            description="Nous pouvons nous charger de la création d'un logo simple et moderne pour votre entreprise." 
             imageSrc="/plus/creation.jpg"
             imgAlt="image d'une personne stylo à la main qui définit un projet sur papier"
 

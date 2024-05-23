@@ -16,7 +16,7 @@ const OffresCard: React.FC<OffresCardProps> = ({ color, title, description, imag
   return (
     <div className={`grid grid-rows-subgrid row-span-5 glass-container bg-gradient-to-b from-gray-900 to-gray-950 p-6`}>
       <div className={`absolute inset-0 -z-10 bg-${color}-500/30 blur-2xl filter `}/>
-      <h3 className='text-balance text-center text-xl font-bold md:text-2xl'>{title}</h3>
+      <h3 className='text-balance text-center text-2xl font-bold md:text-4xl'>{title}</h3>
       <p className='text-center pb-4 italic'>{subtitle}</p>
       <p className=''>{description}</p>
 

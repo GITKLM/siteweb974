@@ -45,10 +45,9 @@ export default function AnimatedContent() {
     <h1 className="hero__heading opacity-0 text-balance text-center text-5xl font-medium md:text-6xl max-w-5xl pt-14" style={{ lineHeight: '1.25' }}>
       Tout simplement, les <span className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">meilleurs</span> sites web de l&apos;île de la Réunion.
     </h1>
-    <p className="hero__body opacity-0 italic text-xs sm:text-lg">Site vitrine, e-commerce ou sur-mesure <span className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent font-bold">gratuit</span> avec l&apos;aide régionale</p>
+    <p className="hero__body opacity-0 italic text-xs sm:text-lg">Site vitrine, e-commerce ou sur-mesure <span className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent font-bold">subventionné</span> par la Région</p>
     <div className=" hero__button opacity-0 flex sm:flex-row flex-col gap-4 items-center justify-center py-4">
     <ButtonRegion
-    
     />
     <ButtonLink
     >Nous contacter</ButtonLink>

@@ -11,39 +11,37 @@ export default function AnimatedOffres() {
   const offres = [
     {
       title: 'Site Vitrine',
-      description: 'Site web destiné à présenter votre entreprise, vos services ou vos produits sans fonctionnalités de vente en ligne. Il sert de carte de visite numérique pour améliorer votre présence en ligne.',
+      description: 'Site web captivant conçu pour présenter votre entreprise, vos services et vos produits, agissant comme une carte de visite numérique pour dynamiser et renforcer votre présence en ligne.',
       inclus: [
         'Nombre de pages : Jusqu\'à 5 pages (Accueil, À propos, Services, Contact, Blog).',
-        'Formulaire de contact : Mise en place d’un formulaire pour faciliter les échanges avec vos clients.',
-        'Intégration de réseaux sociaux : Liens vers vos comptes sociaux pour augmenter votre visibilité.',
+        'Formulaire de contact : Mise en place d\'un formulaire pour faciliter les échanges avec vos clients.',
+        'Maintenance : On s\'assure que votre site reste à jour et fonctionne parfaitement.',
       ],
       avantages: [
         'Améliore votre présence en ligne.',
         'Présente vos services de manière claire et professionnelle.',
-        'Facile à mettre à jour et à maintenir.'
+        'Facile à mettre à jour et à entretenir.'
       ],
       price: 1200,
-      aidPrice: 0,
       imgSrc: '/offres/site-vitrine-page.jpg',
       bgColor: 'bg-blue-500/30',
     },
     {
       title: 'Site E-commerce',
-      description: 'Un site e-commerce est conçu pour la vente en ligne de produits ou services. Il comprend toutes les fonctionnalités nécessaires pour gérer une boutique en ligne.',
+      description: 'Un site de commerce en ligne conçu pour la vente de produits ou deservices, intégrant toutes les fonctionnalités essentielles pour gérer efficacement votre boutique en ligne et maximiser vos ventes.',
       inclus: [
-        'Catalogue de produits : Gestion d’un nombre illimité de produits avec catégories et filtres.',
+        'Catalogue de produits : Gestion d\'un nombre illimité de produits avec catégories et filtres.',
         'Paiement sécurisé : Intégration de solutions de paiement (PayPal, Stripe, etc.).',
         'Gestion des commandes : Système complet pour la gestion des commandes et des stocks.',
         'Formulaire de contact et support : Intégration de formulaires pour le contact client et support après-vente.',
-        // 'Rapports et analyses : Outils de reporting pour suivre les performances de votre boutique.'
       ],
       avantages: [
         'Augmente vos ventes en ligne.',
         'Simplifie la gestion de vos produits et commandes.',
-        'Améliore l’expérience d’achat de vos clients.'
+        'Améliore l\'expérience d\'achat de vos clients.'
       ],
-      price: 3200,
-      aidPrice: 0,
+      price: 2000,
+
       imgSrc: '/offres/offre-e-commerce.jpg',
       bgColor: 'bg-green-500/30',
     },
@@ -52,18 +50,17 @@ export default function AnimatedOffres() {
       description: 'Cette offre sur-mesure est destinée à répondre à des besoins spécifiques en matière de développement web, optimisation SEO, ou tout autre service personnalisé. Elle est idéale pour ceux qui ont déjà un site web mais qui nécessitent des améliorations ou des services complémentaires.',
       inclus: [
         'Réparation et maintenance : Correction de bugs, mises à jour de sécurité, amélioration des performances.',
-        'Refonte de site : Modernisation du design existant, amélioration de l’expérience utilisateur.',
+        'Refonte de site : Modernisation du design existant, amélioration de l\'expérience utilisateur.',
         'Développement de fonctionnalités spécifiques : Ajout de nouvelles fonctionnalités sur mesure en fonction de vos besoins.',
         'Analyse de performance : Audit complet de la performance du site avec recommandations pour les améliorations.',
-        // 'Support et formation : Formation à l’utilisation de votre site et support technique continu.'
       ],
       avantages: [
         'Solutions personnalisées adaptées à vos besoins spécifiques.',
         'Améliore la performance et la visibilité de votre site existant.',
         'Maintient votre site à jour avec les dernières technologies et pratiques SEO.'
       ],
-      price: 800,
-      aidPrice: 0,
+      price: 500,
+
       imgSrc: '/offres/sur-mesure-page.jpg',
       bgColor: 'bg-yellow-500/30',
     },
@@ -102,7 +99,7 @@ export default function AnimatedOffres() {
           inclus={offre.inclus}
           avantages={offre.avantages}
           price={offre.price}
-          aidPrice={offre.aidPrice}
+          // aidPrice={offre.aidPrice}
           imgSrc={offre.imgSrc}
           bgColor={offre.bgColor}
         />

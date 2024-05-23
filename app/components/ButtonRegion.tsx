@@ -23,7 +23,7 @@ export default function ButtonRegion() {
       onMouseLeave={handleHover}
       onClick={handleClick}
     >
-      {isHovered ? 'Financement à 100%' : "Voir l'aide de la région"}
+      {isHovered ? "Subvention 80% max" : "Voir l'aide de la région"}
     </button>
   );
 }
