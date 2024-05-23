@@ -69,7 +69,7 @@ export default function NavBar() {
               <li key={item.label}>
                 <Link href={item.link}
                       aria-label={`Naviger sur la page ${item.label}`}
-                  className="block px-3 text-3xl first:mt-8"
+                  className="block px-3 text-3xl first:mt-8 transform transition-transform duration-300 ease-in-out hover:scale-105"
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
@@ -92,7 +92,7 @@ export default function NavBar() {
               <Link 
               href={item.link}
               aria-label={`Naviger sur la page ${item.label}`}
-              className="inline-flex min-h-11 items-center">
+              className="inline-flex min-h-11 items-center transform transition-transform duration-300 ease-in-out hover:scale-105">
                 {item.label}
               </Link>
             </li>

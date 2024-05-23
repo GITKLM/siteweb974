@@ -41,7 +41,7 @@ export default function AnimatedContent() {
 
   return (
     <div className="relative" ref={container}>
-    <div className="flex flex-col justify-center items-center gap-4 pt-6">
+    <div className="flex flex-col justify-center items-center gap-4 pt-4 sm:pt-6">
     <h1 className="hero__heading opacity-0 text-balance text-center text-5xl font-medium md:text-6xl max-w-5xl pt-14" style={{ lineHeight: '1.25' }}>
       Tout simplement, les <span className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">meilleurs</span> sites web de l&apos;île de la Réunion.
     </h1>

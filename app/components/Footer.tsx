@@ -39,7 +39,10 @@ export default function Footer() {
             <nav aria-label="Footer" className="order-1 lg:order-2">
                 <ul className="flex gap-6">
                     {navigationItems.map((item) => (
-                        <li key={item.label}>
+                        <li 
+                        key={item.label}
+                        className='transform transition-transform duration-300 ease-in-out hover:scale-105'
+                        >
                             <Link href={item.link} aria-label="Voir toutes Nos Offres" className="inline-flex min-h-11 items-center">
                                 {item.label}
                             </Link>
