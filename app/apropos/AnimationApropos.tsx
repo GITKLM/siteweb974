@@ -49,8 +49,8 @@ export default function AnimationApropos() {
 
 <div className='flex flex-col justify-center items-center lg:flex-row p-10'>
         <Image 
-        src="/apropos/apropos.jpg"
-        alt='photographie de la Réunion'
+        src="/apropos/reunion.jpg"
+        alt='Photographie de la Réunion'
         width={500}
         height={1000}
         />
