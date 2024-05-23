@@ -69,7 +69,7 @@ export default function Engagement() {
           "Meilleure expérience utilisateur",
           "S'adapte à tous vos besoins",
         ]}
-        linkHref="/"
+        linkHref="/offres"
         reverseLayout={false}
       />
 
@@ -97,7 +97,7 @@ export default function Engagement() {
           "Des objets plus durables",
           "Des interfaces dynamiques"
         ]}
-        linkHref="/"
+        linkHref="/offres"
         reverseLayout={false}
       />
     </Bounded>

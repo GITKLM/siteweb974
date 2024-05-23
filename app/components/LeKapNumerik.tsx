@@ -14,7 +14,7 @@ export default function LeKapNumerik() {
     >
     <div className="glow absolute -z-10 aspect-square w-full max-w-sm rounded-full bg-blue-500/50 blur-[160px] filter" />
     <AnimatedKapNumerik>
-    <h2 className="text-balance text-center text-5xl font-medium md:text-7xl"> Faites-vous financer par la Région !</h2>
+    <h2 className="text-balance text-center text-5xl font-medium md:text-7xl lg:max-w-3xl"> Faites-vous financer par la Région !</h2>
 
     </AnimatedKapNumerik>
 
@@ -33,21 +33,6 @@ export default function LeKapNumerik() {
         <h3 className='font-bold text-md'>Pour les entreprises de 10 à 19 salariés :</h3>
       <p>50 % des dépenses éligibles et 2 000 euros de subvention maximum.</p>
       </div>
-
-      {/* <div className="mt-6 text-2xl font-normal">
-      <p>Les documents à fournir</p>
-      </div>
-
-      <div className="mt-4 max-w-x prose prose-invert">
-      <p>- Carte nationale d’identité ou passeport </p>
-      <p>- RIB</p>
-      <p>- Un seul devis de prestataires</p>
-      <p>- La fiche d’engagement du prestataire retenu</p>
-      <p>Pour les entreprises: </p>
-      <p>Kbis, Bilans et Comptes de résultats, DCN n-1</p>
-      <p>Pour les associations: </p>
-      <p>SIREN, statuts à jour, déclaration en Préfecture, Décision du CA, liste membre du CA, Bilans et Comptes</p>
-      </div> */}
 <div className='text-center py-6'>
       <ButtonRegion />
 

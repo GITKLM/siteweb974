@@ -28,7 +28,7 @@ export default function Paragraph({ paragraph }: ParagraphProps) {
   return (
     <p 
       ref={container}         
-      className="flex text-3xl md:text-4xl leading-none p-10 max-w-4xl text-white flex-wrap"
+      className="flex text-2xl md:text-4xl leading-none p-10 max-w-4xl text-white flex-wrap"
     >
       {words.map((word, i) => {
         const start = i / words.length;

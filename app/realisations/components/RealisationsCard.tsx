@@ -55,7 +55,7 @@ const Card: React.FC<CardProps> = ({title, description, src, color, i}) => {
               <Image
                 fill
                 src={`/${src}`}
-                alt="image" 
+                alt="Réalisation de site web 974" 
               />
             </motion.div>
           </div>

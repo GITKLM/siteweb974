@@ -54,8 +54,8 @@ export default function AnimatedRealisation() {
 
   return (
     <div className='' ref={container}>
-    <div className='flex flex-col items-center justify-center '>
-      <h1 className="realisation__heading opacity-0 text-balance text-5xl font-medium md:text-7xl pt-[136px]" style={{ lineHeight: '1.25' }}>Pour voir toutes nos <span className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">réalisations</span></h1>
+    <div className='flex flex-col items-center justify-center'>
+      <h1 className="realisation__heading opacity-0 text-balance text-center text-5xl font-medium md:text-7xl pt-[136px]" style={{ lineHeight: '1.25' }}>Pour voir toutes nos <span className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">réalisations</span></h1>
       <div className="md:text-8xl pt-10 ">
       </div>
     </div>

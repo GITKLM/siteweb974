@@ -61,7 +61,7 @@ export default function AnimationDevis() {
 
   return (
     <div className="container mx-auto px-4" ref={container}>
-      <h1 className="devis__heading opacity-0 text-balance text-5xl font-medium md:text-7xl pt-10 pb-20 ">Quelle est votre demande ?</h1>
+      <h1 className="devis__heading opacity-0 text-balance text-center text-5xl font-medium md:text-7xl pt-10 pb-20 ">Quelle est votre demande ?</h1>
       
       <div className='lg:grid grid-cols-4 gap-10 block'>
         <ContactForm />

@@ -24,7 +24,7 @@ export default function AnimatedKapNumerik({
             duration:1,
             scrollTrigger: {
                 trigger: container.current,
-                start: "top bottom-=40%",
+                start: "top bottom-=30%",
                 toggleActions: "play pause resume reverse"
             }
         })

@@ -15,7 +15,7 @@ type OffrePageCardProps = {
 const OffrePageCard = ({ title, description, inclus, avantages, price, aidPrice, imgSrc, bgColor }: OffrePageCardProps) => {
   return (
     <div className='offre__card opacity-0'>
-      <div className={`flex flex-col gap-4 justify-center items-center max-w-5xl glass-container bg-gradient-to-b from-gray-900 to-gray-950 p-10 mt-36 w-fit relative`}>
+      <div className={`flex flex-col gap-4 justify-center items-center max-w-5xl glass-container bg-gradient-to-b from-gray-900 to-gray-950 p-6 mt-36 w-fit relative`}>
         <div className={`absolute inset-0 -z-10 ${bgColor} blur-2xl filter`} />
         
         <h2 className='text-center text-3xl font-bold md:text-4xl pb-6'>{title}</h2>

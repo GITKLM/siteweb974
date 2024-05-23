@@ -33,7 +33,7 @@ export default function AnimationApropos() {
   return (
     <div ref={container}>
 <h1 className="apropos__heading opacity-0 text-balance text-center text-5xl font-medium md:text-7xl pt-[36px]" style={{ lineHeight: '1.15' }}>En apprendre plus sur <span className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">nous</span></h1>
-<div style={{height: "40vh"}}></div>
+<div style={{height: "20vh"}}></div>
 <div className='apropos__card opacity-0 flex flex-col-reverse justify-center items-center lg:flex-row p-10'>
 
         <Word paragraph={paragraph}/>
