@@ -1,5 +1,4 @@
 
-import { title } from 'process';
 import Bounded from '../components/Bounded';
 import AnimationApropos from './AnimationApropos';
 import { Metadata } from 'next';
