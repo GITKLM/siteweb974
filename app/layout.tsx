@@ -26,12 +26,7 @@ export const metadata: Metadata = {
     locale: "fr",
     url: "https://siteweb974.re/",
     siteName:"SiteWeb974",
-    images: [{
-      url: "https://siteweb974.vercel.app/opengraph-image.jpg",
-      width: 1200,
-      height: 630,
-      alt: "Site Web 974",
-    }],
+    images: ['/opengraph-image.jpg'],
   },
 };
 
