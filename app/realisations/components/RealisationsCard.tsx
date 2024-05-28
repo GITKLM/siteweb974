@@ -11,9 +11,10 @@ interface CardProps {
   src: string;
   color: string;
   i: number;
+  link: string;
 }
 
-const Card: React.FC<CardProps> = ({title, description, src, color, i}) => {
+const Card: React.FC<CardProps> = ({title, description, src, color, i, link}) => {
   const container = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -35,7 +36,7 @@ const Card: React.FC<CardProps> = ({title, description, src, color, i}) => {
           <Link
           className='text-sm'
           aria-label="Voir le site"
-          href="/"
+          href={link}
           >
           Voir le site
           </Link>

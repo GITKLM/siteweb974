@@ -14,22 +14,29 @@ export default function AnimatedRealisation() {
           title: "Gericht",
           description: "Site vitrine au design agréable et fonctionnel, présentant tant les innovations culinaires du chef et la carte du restaurant.",
           src: "gericht.png",
-          link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+          link: "https://restaurant-gericht-iota.vercel.app/",
           color: "blue"
         },
         {
           title: "Car Hub",
           description: "Un magnifique site e-commerce pour emprunter des véhicules avec une interface simple et intuitive",
           src: "car-hub.png",
-          link: "https://www.ignant.com/2022/09/30/clement-chapillon-questions-geographical-and-mental-isolation-with-les-rochers-fauves/",
+          link: "",
           color: "green"
         },
         {
           title: "Hoo Bank",
-          description: "Site vitrine d'une application de banque en ligne au design moderne",
+          description: "Site vitrine d'une application de banque en ligne au design moderne et élégant",
           src: "bank-app.png",
-          link: "https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/",
+          link: "https://the-hoo-bank.vercel.app/",
           color: "yellow"
+        },
+        {
+          title: "GPT-3",
+          description: "Une interface moderne et design pour la présentation de l'Inteligence artificielle GPT3",
+          src: "gpt-3.png",
+          link: "https://gtp3.site/",
+          color: "blue"
         },
       ];
     
