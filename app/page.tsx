@@ -10,7 +10,6 @@ export default function Home() {
 <Hero />
 <Engagement />
 <Offres />
-
 <LeKapNumerik />
 </main>
   );

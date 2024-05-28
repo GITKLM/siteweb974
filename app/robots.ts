@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: '/pages',
       },
-      sitemap: 'https://siteweb974.vercel.app/sitemap.xml',
+      sitemap: 'https://siteweb974.re/sitemap.xml',
 }
 }
