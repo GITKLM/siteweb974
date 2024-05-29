@@ -21,7 +21,7 @@ export default function AnimationDevis() {
     {
       title: "Nous contacter",
       items: [
-        { type: "email", value: "siteweb974@gmail.com" },
+        { type: "email", value: "contact@siteweb974.re" },
         { type: "phone", value: "0693518001" }
       ]
     },
