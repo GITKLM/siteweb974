@@ -30,7 +30,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr">
       <head>
-        <meta name="description" content="Site Web 974 propose la création de site internet professionnel à l'île de la Réunion" />
         <meta name="keywords" content="Création de sites internet à La Réunion 974, Développeur web à La Réunion 974, Site vitrine à La Réunion 974, Site e-commerce à La Réunion 974, Design web à La Réunion 974, Agence web à La Réunion 974, Création de boutiques en ligne à La Réunion 974, Créateur site web à la réunion 974, Stratégies de référencement local à La Réunion, création web péi, Optimisation référencement SEO à La Réunion 974, Refonte de sites web à La Réunion 974" />
         <meta property="og:title" content="Site Web 974 | Création de site internet à la Réunion" />
         <meta property="og:description" content="Site Web 974 propose la création de site internet professionnel à l'île de la Réunion" />

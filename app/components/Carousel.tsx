@@ -60,7 +60,7 @@ const Carousel = () => {
         src={slides[currentSlide]} 
         alt={`Projet n°${currentSlide + 1}`}
         width={windowSize.width < 768 ? windowSize.width : 1100} 
-        height={windowSize.width < 768 ? windowSize.width * 0.5 : 555} 
+        height={windowSize.width < 768 ? windowSize.width * 0.5 : 556} 
       />
     </div>
   );
