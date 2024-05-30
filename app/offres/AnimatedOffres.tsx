@@ -23,7 +23,7 @@ export default function AnimatedOffres() {
         'Facile à mettre à jour et à entretenir.'
       ],
       price: 1200,
-      imgSrc: '/offres/site-vitrine-page.jpg',
+      imgSrc: '/offres/site-vitrine-page.webp',
       bgColor: 'bg-blue-500/30',
     },
     {
@@ -42,7 +42,7 @@ export default function AnimatedOffres() {
       ],
       price: 2000,
 
-      imgSrc: '/offres/offre-e-commerce.jpg',
+      imgSrc: '/offres/offre-e-commerce.webp',
       bgColor: 'bg-green-500/30',
     },
     {
@@ -61,7 +61,7 @@ export default function AnimatedOffres() {
       ],
       price: 500,
 
-      imgSrc: '/offres/sur-mesure-page.jpg',
+      imgSrc: '/offres/sur-mesure-page.webp',
       bgColor: 'bg-yellow-500/30',
     },
   ];

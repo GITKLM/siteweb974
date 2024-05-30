@@ -62,7 +62,7 @@ export default function Engagement() {
       <SectionWithImageAndText
         title="Design plus"
         gradientText="Fonctionnel"
-        imageSrc="/engagement/design-fonctionnel1.jpg"
+        imageSrc="/engagement/design-fonctionnel1.webp"
         altText="De beaux designs affichés sur un ordinateur"
         text={[
           "Version Mobile efficace",
@@ -76,7 +76,7 @@ export default function Engagement() {
       <SectionWithImageAndText
         title="Meilleur"
         gradientText="Référencement"
-        imageSrc="/engagement/referencement.jpg"
+        imageSrc="/engagement/referencement.webp"
         altText="quelqu'un tape sur un clavier d'ordinateur"
         text={[
           "Planifier une stratégie SEO efficace",
@@ -90,7 +90,7 @@ export default function Engagement() {
       <SectionWithImageAndText
         title="Outils web"
         gradientText="performants"
-        imageSrc="/engagement/outils-performants.jpg"
+        imageSrc="/engagement/outils-performants.webp"
         altText="quelqu'un développe sur un clavier d'ordinateur"
         text={[
           "Des sites plus rapides",
