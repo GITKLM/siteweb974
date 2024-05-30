@@ -46,8 +46,8 @@ export default function AnimatedOffres() {
       bgColor: 'bg-green-500/30',
     },
     {
-      title: 'Sur-Mesure',
-      description: 'Cette offre sur-mesure est destinée à répondre à des besoins spécifiques en matière de développement web, optimisation SEO, ou tout autre service personnalisé. Elle est idéale pour ceux qui ont déjà un site web, mais qui nécessitent des améliorations ou des services complémentaires.',
+      title: 'Sur Mesure',
+      description: "Cette offre sur mesure est destinée à répondre à des besoins spécifiques en matière de développement web, optimisation SEO, ou tout autre service personnalisé. Elle est idéale pour ceux qui ont déjà un site web, mais qui souhaite l'améliorer, refaire un stratégie de référencement ou corriger d'éventuels bugs",
       inclus: [
         'Réparation et maintenance : Correction de bugs, mises à jour de sécurité, amélioration des performances.',
         'Refonte de site : Modernisation du design existant, amélioration de l\'expérience utilisateur.',

@@ -31,7 +31,7 @@ export default function Offres() {
           />
           <OffresCard
             color="green"
-            title="Site sur-Mesure"
+            title="Site sur Mesure"
             subtitle="Conçu pour vous accompagner"
             description="Selon vos envies, réparation et maintenance, refaire une stratégie de référencement, analyse de performance, création de blog personnel, etc."
             imageSrc="/offres/sur-mesure.webp"
