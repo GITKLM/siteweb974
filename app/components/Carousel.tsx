@@ -23,7 +23,7 @@ const useWindowSize = () => {
   }, []); // Déclenche uniquement après le rendu initial
 
   return windowSize;
-};
+};        
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
