@@ -14,7 +14,7 @@ export default function LeKapNumerik() {
     >
     <div className="glow absolute -z-10 aspect-square w-full max-w-sm rounded-full bg-blue-500/50 blur-[160px] filter" />
     <AnimatedKapNumerik>
-    <h2 className="text-balance text-center text-5xl font-medium md:text-7xl lg:max-w-3xl"> Faites-vous financer par la Région !</h2>
+    <h2 className="text-balance text-center text-5xl font-medium md:text-7xl lg:max-w-5xl"> Faites-vous subventionner par la Région !</h2>
 
     </AnimatedKapNumerik>
 
@@ -40,7 +40,7 @@ export default function LeKapNumerik() {
       </div> 
 
       <Image
-  src="/le-kap-numerik.jpg"
+  src="/le-kap-numerik.webp"
   alt="Image de présentation du kap Numerik"
   className="opacity-90 shadow-2xl lg:col-span-2 lg:pt-0 lg:-order-1 lg:translate-x-[-15%] rounded-lg"
   width={690}
