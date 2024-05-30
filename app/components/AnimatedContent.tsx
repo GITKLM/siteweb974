@@ -35,6 +35,10 @@ export default function AnimatedContent() {
         tl.fromTo(".hero__glow",
         {scale:0.5},
         {scale:1, opacity:1, duration: 1.8 }, "-=1");
+        
+        tl.fromTo(".hero__phrase",
+        {scale:0.5},
+        {scale:1, opacity:1, duration: 1.9 }, "-=1");
   
 
 }, { scope: container });
@@ -64,7 +68,7 @@ export default function AnimatedContent() {
       >
       </Link>
     </div>
-        <p className="pt-11 text-center text-gray-400 text-xl italic">&quot;L&apos;Excellence Digitale à portée de clic&quot;</p>
+        <p className="hero__phrase opacity-0 pt-11 text-center text-gray-400 text-xl italic">&quot;L&apos;Excellence Digitale à portée de clic&quot;</p>
             </div>
     </div>
   )
