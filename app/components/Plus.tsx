@@ -31,7 +31,7 @@ export default function Plus() {
 
     <OffresCard
             title="Maquette de votre Site" 
-            description="Nous vous proposons d'heberger vos sites chez nous et de vous fournir le nom de domaine."
+            description="Nous vous proposons d'héberger vos sites chez nous et de vous fournir le nom de domaine."
             // PRIX A RAJOUTER
             imageSrc="/plus/strategieSEO2.jpg"
             imgAlt="Maquette d'un site web"
@@ -63,7 +63,7 @@ export default function Plus() {
           />
     <OffresCard
             title="hébergement site" 
-            description="Nous vous proposons d'heberger vos sites chez nous et de vous fournir le nom de domaine."
+            description="Nous vous proposons d'héberger vos sites chez nous et de vous fournir le nom de domaine."
             // PRIX A RAJOUTER
             imageSrc="/plus/webhost.jpg"
             imgAlt="image de plusieurs serveurs reliés au cloud"

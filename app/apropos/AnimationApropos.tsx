@@ -7,7 +7,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 const paragraph = "Nous sommes une équipe de développeurs talentueux, passionnés par les nouvelles technologies et toujours à la pointe des dernières innovations en développement web.";
-const text = "Nous nous engageons à mettre nos compétences et notre expertise au service des réunionnais, afin de promouvoir notre territoire et ses acteurs sur le web.";
+const text = "Nous nous engageons à mettre nos compétences et notre expertise au service des Réunionnais, afin de promouvoir notre territoire et ses acteurs sur le web.";
 
 export default function AnimationApropos() {
 

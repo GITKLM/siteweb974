@@ -13,28 +13,28 @@ export default function AnimatedRealisation() {
         {
           title: "Gericht",
           description: "Site vitrine au design agréable et fonctionnel, présentant tant les innovations culinaires du chef et la carte du restaurant.",
-          src: "gericht.png",
+          src: "gericht.webp",
           link: "https://restaurant-gericht-iota.vercel.app/",
           color: "blue"
         },
         {
           title: "Car Hub",
           description: "Un magnifique site e-commerce pour emprunter des véhicules avec une interface simple et intuitive",
-          src: "car-hub.png",
+          src: "car-hub.webp",
           link: "https://carhub-jet-six.vercel.app/",
           color: "green"
         },
         {
           title: "Hoo Bank",
           description: "Site vitrine d'une application de banque en ligne au design moderne et élégant",
-          src: "bank-app.png",
+          src: "bank-app.webp",
           link: "https://the-hoo-bank.vercel.app/",
           color: "yellow"
         },
         {
           title: "GPT-3",
           description: "Une interface moderne et design pour la présentation de l'Inteligence artificielle GPT3",
-          src: "gpt-3.png",
+          src: "gpt-3.webp",
           link: "https://gtp3.site/",
           color: "blue"
         },

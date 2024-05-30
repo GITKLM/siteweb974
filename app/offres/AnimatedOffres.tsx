@@ -28,7 +28,7 @@ export default function AnimatedOffres() {
     },
     {
       title: 'Site E-commerce',
-      description: 'Un site de commerce en ligne conçu pour la vente de produits ou deservices, intégrant toutes les fonctionnalités essentielles pour gérer efficacement votre boutique en ligne et maximiser vos ventes.',
+      description: 'Un site de commerce en ligne conçu pour la vente de produits ou de services, intégrant toutes les fonctionnalités essentielles pour gérer efficacement votre boutique en ligne et maximiser vos ventes.',
       inclus: [
         'Catalogue de produits : Gestion d\'un nombre illimité de produits avec catégories et filtres.',
         'Paiement sécurisé : Intégration de solutions de paiement (PayPal, Stripe, etc.).',
@@ -47,7 +47,7 @@ export default function AnimatedOffres() {
     },
     {
       title: 'Sur-Mesure',
-      description: 'Cette offre sur-mesure est destinée à répondre à des besoins spécifiques en matière de développement web, optimisation SEO, ou tout autre service personnalisé. Elle est idéale pour ceux qui ont déjà un site web mais qui nécessitent des améliorations ou des services complémentaires.',
+      description: 'Cette offre sur-mesure est destinée à répondre à des besoins spécifiques en matière de développement web, optimisation SEO, ou tout autre service personnalisé. Elle est idéale pour ceux qui ont déjà un site web, mais qui nécessitent des améliorations ou des services complémentaires.',
       inclus: [
         'Réparation et maintenance : Correction de bugs, mises à jour de sécurité, amélioration des performances.',
         'Refonte de site : Modernisation du design existant, amélioration de l\'expérience utilisateur.',
