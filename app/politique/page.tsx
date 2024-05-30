@@ -1,5 +1,12 @@
 import React from 'react';
 import Bounded from "../components/Bounded";
+import { Metadata } from 'next';
+
+
+export const metadata: Metadata = {
+  title: "Politique de confidentialité | Création de site internet d'excellence",
+  description: "Nous nous engageons à protéger votre vie privée."
+}
 
 export default function PolitiqueConfidentialite() {
   return (

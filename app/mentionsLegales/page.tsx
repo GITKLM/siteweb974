@@ -1,5 +1,11 @@
 import React from 'react';
 import Bounded from '../components/Bounded';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Mentions légales | Création de site internet d'excellence",
+  description: "Consultez nos mentions légales"
+}
 
 export default function Page() {
   return (
