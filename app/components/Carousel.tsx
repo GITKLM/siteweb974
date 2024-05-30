@@ -3,12 +3,18 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 const useWindowSize = () => {
+  const isClient = typeof window === 'object'; // Vérifie si le code s'exécute côté client
+
   const [windowSize, setWindowSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: isClient ? window.innerWidth : 0,
+    height: isClient ? window.innerHeight : 0,
   });
 
   useEffect(() => {
+    if (!isClient) {
+      return; // Si le code s'exécute côté serveur, sortir de l'effet
+    }
+
     function handleResize() {
       setWindowSize({
         width: window.innerWidth,
@@ -20,10 +26,11 @@ const useWindowSize = () => {
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, []); // Déclenche uniquement après le rendu initial
+  }, [isClient]); // Déclenche uniquement après le rendu initial côté client
 
   return windowSize;
 };
+
      
 
 const Carousel = () => {
