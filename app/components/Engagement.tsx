@@ -40,7 +40,7 @@ function SectionWithImageAndText({ title, gradientText, imageSrc, altText, text,
           className={clsx("rounded-xl lg:col-span-2")}
           src={imageSrc}
           alt={altText}
-          height={500}
+          height={334}
           width={500}
         />
       </div>
