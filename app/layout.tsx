@@ -13,7 +13,7 @@ const fontSans = FontSans({
 
  export const metadata: Metadata = {
    title: {
-    default: 'Site Web 974 | Création de site internet d&apos;excellence',
+    default: "Site Web 974 | Création de site internet d'excellence",
     template: "%s | Création de site internet d'excellence"
    },
    description: 'Site Web 974 propose la création de site internet professionnel à l\'île de la Réunion',
