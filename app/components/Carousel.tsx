@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const useWindowSize = () => {
   const [windowSize, setWindowSize] = useState({
-    width: 0,
-    height: 0,
+    width: window.innerWidth,
+    height: window.innerHeight,
   });
 
   useEffect(() => {
@@ -23,7 +23,8 @@ const useWindowSize = () => {
   }, []); // Déclenche uniquement après le rendu initial
 
   return windowSize;
-};        
+};
+     
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
