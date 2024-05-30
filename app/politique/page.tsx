@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité | Création de site internet d'excellence",
+  title: "Politique de confidentialité",
   description: "Nous nous engageons à protéger votre vie privée."
 }
 
