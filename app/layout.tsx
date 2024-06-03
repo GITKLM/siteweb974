@@ -22,8 +22,6 @@ const fontSans = FontSans({
     card: "summary_large_image"
    },
    openGraph: {
-    title: "Site Web 974 | Création de site internet d'excellence",
-    description: "Experts en sites vitrine, e-commerce, référencement en ligne et réparations web. Votre site professionnel d'exception sur mesure, conçu avec le plus grand soin",
     url: 'https://siteweb974.re',
     siteName: 'siteweb974',
     images: [
